@@ -1,0 +1,29 @@
+- ARDUINO       = A
+- LCD           = LCD
+- RFID          = RFID
+- LED RED       = LR
+- LED GREEN     = LG
+- LED YELLOW    = LY
+- SERVO         = S
+- BUTTON        = BTN
+
+A.5V        - LCD.VCC
+A.GND       - LCD.GND
+A.ANLG_4    - LCD.SDA
+A.ANLG_5    - LCD.SCL
+A.5V        - 1K RES - BTN
+A.GND       - BTN
+A.DIG_3     - BTN
+A.GND       - RFID.GND
+A.DIG_9     - RFID.RST
+A.DIG_10    - RFID.SDA
+A.DIG_11    - RFID.MOSI
+A.DIG_12    - RFID.MOSO
+A.DIG_13    - RFID.SCK
+A.GND       - 220 RES - LG
+A.GND       - 220 RES - LR
+A.GND       - 220 RES - LY
+A.DIG_5     - LY
+A.DIG_6     - LR
+A.DIG_7     - LG
+A.DIG_4     - SERVO
